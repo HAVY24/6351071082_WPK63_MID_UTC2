@@ -152,7 +152,7 @@
 </asp:ListView>
 <asp:EntityDataSource ID="EntityDataSource1" runat="server" ConnectionString="name=KTGKEntities" DefaultContainerName="KTGKEntities" EnableFlattening="False" EntitySetName="Courses" Where="it.ID = @Id">
         <WhereParameters>
-    <asp:QueryStringParameter Name="Id" QueryStringField="CatID" Type="Int32"/>
+    <asp:QueryStringParameter Name="Id" QueryStringField="ID" Type="Int32"/>
 </WhereParameters>
 </asp:EntityDataSource>
 
