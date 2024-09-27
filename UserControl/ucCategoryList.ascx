@@ -6,6 +6,6 @@
        
     </ItemTemplate>
 </asp:DataList>
-<asp:EntityDataSource ID="EntityDataSource1" runat="server" ConnectionString="name=KTGKEntities" DefaultContainerName="KTGKEntities" EnableFlattening="False" EntitySetName="Categories">
+<asp:EntityDataSource ID="EntityDataSource1" runat="server" ConnectionString="name=KTGKEntities" DefaultContainerName="KTGKEntities" EnableFlattening="False" EntitySetName="Categories" Include ="Courses">
 </asp:EntityDataSource>
 
